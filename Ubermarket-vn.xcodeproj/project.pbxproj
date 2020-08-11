@@ -3,27 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D28126D24DCE688009AD972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28126C24DCE688009AD972 /* AppDelegate.swift */; };
-		2D28126F24DCE688009AD972 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28126E24DCE688009AD972 /* SceneDelegate.swift */; };
-		2D28127124DCE688009AD972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28127024DCE688009AD972 /* ViewController.swift */; };
 		2D28127424DCE688009AD972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D28127224DCE688009AD972 /* Main.storyboard */; };
 		2D28127624DCE68C009AD972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D28127524DCE68C009AD972 /* Assets.xcassets */; };
 		2D28127924DCE68C009AD972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D28127724DCE68C009AD972 /* LaunchScreen.storyboard */; };
+		2D28129924DCE6AE009AD972 /* CalendarViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28128124DCE6AD009AD972 /* CalendarViewExtension.swift */; };
+		2D28129A24DCE6AE009AD972 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28128224DCE6AD009AD972 /* UIViewExtension.swift */; };
+		2D28129B24DCE6AE009AD972 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28128324DCE6AD009AD972 /* CustomTextField.swift */; };
+		2D28129C24DCE6AE009AD972 /* RebeloperScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28128424DCE6AD009AD972 /* RebeloperScrollView.swift */; };
+		2D28129D24DCE6AE009AD972 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28128524DCE6AD009AD972 /* CalendarViewController.swift */; };
+		2D28129E24DCE6AE009AD972 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28128624DCE6AD009AD972 /* Popup.swift */; };
+		2D28129F24DCE6AE009AD972 /* CustomizableMealScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28128924DCE6AD009AD972 /* CustomizableMealScrollView.swift */; };
+		2D2812A024DCE6AE009AD972 /* MealNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28128A24DCE6AD009AD972 /* MealNumberView.swift */; };
+		2D2812A124DCE6AE009AD972 /* CustomizableMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28128B24DCE6AD009AD972 /* CustomizableMealView.swift */; };
+		2D2812A224DCE6AE009AD972 /* SpecificDishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28128D24DCE6AD009AD972 /* SpecificDishView.swift */; };
+		2D2812A324DCE6AE009AD972 /* TopRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28128E24DCE6AD009AD972 /* TopRightView.swift */; };
+		2D2812A424DCE6AE009AD972 /* SDVTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28128F24DCE6AD009AD972 /* SDVTextField.swift */; };
+		2D2812A524DCE6AE009AD972 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28129124DCE6AD009AD972 /* Matrix.swift */; };
+		2D2812A624DCE6AE009AD972 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28129324DCE6AD009AD972 /* MenuButton.swift */; };
+		2D2812A724DCE6AE009AD972 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28129424DCE6AD009AD972 /* Menu.swift */; };
+		2D2812A824DCE6AE009AD972 /* MultipleSelectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28129624DCE6AD009AD972 /* MultipleSelectionHandler.swift */; };
+		2D2812A924DCE6AE009AD972 /* SingleSelectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28129724DCE6AD009AD972 /* SingleSelectionHandler.swift */; };
+		2D2812AA24DCE6AE009AD972 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28129824DCE6AD009AD972 /* FoodViewController.swift */; };
+		2D2812AC24DCE6C2009AD972 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2812AB24DCE6C2009AD972 /* MainTabBarController.swift */; };
+		2D2812AF24DCE6DA009AD972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2812AD24DCE6DA009AD972 /* AppDelegate.swift */; };
+		2D2812B024DCE6DA009AD972 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2812AE24DCE6DA009AD972 /* SceneDelegate.swift */; };
+		2D2812B224DD5087009AD972 /* SpecificDayContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2812B124DD5087009AD972 /* SpecificDayContainer.swift */; };
+		AAF06C4635162C571C83AF38 /* Pods_Ubermarket_vn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C985ED8DF6C35939AE178F1 /* Pods_Ubermarket_vn.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D28126924DCE688009AD972 /* Ubermarket-vn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ubermarket-vn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D28126C24DCE688009AD972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D28126E24DCE688009AD972 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D28127024DCE688009AD972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D28127324DCE688009AD972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D28127524DCE68C009AD972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D28127824DCE68C009AD972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D28127A24DCE68C009AD972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D28128124DCE6AD009AD972 /* CalendarViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewExtension.swift; sourceTree = "<group>"; };
+		2D28128224DCE6AD009AD972 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		2D28128324DCE6AD009AD972 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		2D28128424DCE6AD009AD972 /* RebeloperScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebeloperScrollView.swift; sourceTree = "<group>"; };
+		2D28128524DCE6AD009AD972 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		2D28128624DCE6AD009AD972 /* Popup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		2D28128924DCE6AD009AD972 /* CustomizableMealScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableMealScrollView.swift; sourceTree = "<group>"; };
+		2D28128A24DCE6AD009AD972 /* MealNumberView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealNumberView.swift; sourceTree = "<group>"; };
+		2D28128B24DCE6AD009AD972 /* CustomizableMealView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableMealView.swift; sourceTree = "<group>"; };
+		2D28128D24DCE6AD009AD972 /* SpecificDishView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificDishView.swift; sourceTree = "<group>"; };
+		2D28128E24DCE6AD009AD972 /* TopRightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopRightView.swift; sourceTree = "<group>"; };
+		2D28128F24DCE6AD009AD972 /* SDVTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDVTextField.swift; sourceTree = "<group>"; };
+		2D28129124DCE6AD009AD972 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		2D28129324DCE6AD009AD972 /* MenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		2D28129424DCE6AD009AD972 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		2D28129624DCE6AD009AD972 /* MultipleSelectionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleSelectionHandler.swift; sourceTree = "<group>"; };
+		2D28129724DCE6AD009AD972 /* SingleSelectionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleSelectionHandler.swift; sourceTree = "<group>"; };
+		2D28129824DCE6AD009AD972 /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		2D2812AB24DCE6C2009AD972 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2D2812AD24DCE6DA009AD972 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D2812AE24DCE6DA009AD972 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D2812B124DD5087009AD972 /* SpecificDayContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificDayContainer.swift; sourceTree = "<group>"; };
+		5030EE9F749B17286A750310 /* Pods-Ubermarket-vn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ubermarket-vn.release.xcconfig"; path = "Target Support Files/Pods-Ubermarket-vn/Pods-Ubermarket-vn.release.xcconfig"; sourceTree = "<group>"; };
+		8C238940D488DF78E67386EE /* Pods-Ubermarket-vn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ubermarket-vn.debug.xcconfig"; path = "Target Support Files/Pods-Ubermarket-vn/Pods-Ubermarket-vn.debug.xcconfig"; sourceTree = "<group>"; };
+		9C985ED8DF6C35939AE178F1 /* Pods_Ubermarket_vn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ubermarket_vn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF06C4635162C571C83AF38 /* Pods_Ubermarket_vn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +85,8 @@
 			children = (
 				2D28126B24DCE688009AD972 /* Ubermarket-vn */,
 				2D28126A24DCE688009AD972 /* Products */,
+				E5A2E81F8E29C7025F416AAC /* Pods */,
+				9F072753D999D6A3D45389AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,109 @@
 		2D28126B24DCE688009AD972 /* Ubermarket-vn */ = {
 			isa = PBXGroup;
 			children = (
-				2D28126C24DCE688009AD972 /* AppDelegate.swift */,
-				2D28126E24DCE688009AD972 /* SceneDelegate.swift */,
-				2D28127024DCE688009AD972 /* ViewController.swift */,
+				2D2812AB24DCE6C2009AD972 /* MainTabBarController.swift */,
+				2D2812AD24DCE6DA009AD972 /* AppDelegate.swift */,
+				2D2812AE24DCE6DA009AD972 /* SceneDelegate.swift */,
+				2D28128724DCE6AD009AD972 /* FoodView */,
+				2D28128024DCE6AD009AD972 /* CalendarView */,
 				2D28127224DCE688009AD972 /* Main.storyboard */,
 				2D28127524DCE68C009AD972 /* Assets.xcassets */,
 				2D28127724DCE68C009AD972 /* LaunchScreen.storyboard */,
 				2D28127A24DCE68C009AD972 /* Info.plist */,
 			);
 			path = "Ubermarket-vn";
+			sourceTree = "<group>";
+		};
+		2D28128024DCE6AD009AD972 /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				2D28128124DCE6AD009AD972 /* CalendarViewExtension.swift */,
+				2D28128224DCE6AD009AD972 /* UIViewExtension.swift */,
+				2D28128324DCE6AD009AD972 /* CustomTextField.swift */,
+				2D28128424DCE6AD009AD972 /* RebeloperScrollView.swift */,
+				2D28128524DCE6AD009AD972 /* CalendarViewController.swift */,
+				2D28128624DCE6AD009AD972 /* Popup.swift */,
+				2D2812B124DD5087009AD972 /* SpecificDayContainer.swift */,
+			);
+			name = CalendarView;
+			path = "../../tab-experiment/tab-experiment/CalendarView";
+			sourceTree = "<group>";
+		};
+		2D28128724DCE6AD009AD972 /* FoodView */ = {
+			isa = PBXGroup;
+			children = (
+				2D28128824DCE6AD009AD972 /* CustomizableMealMenu */,
+				2D28128C24DCE6AD009AD972 /* SpecificDishes */,
+				2D28129024DCE6AD009AD972 /* Models */,
+				2D28129224DCE6AD009AD972 /* Left-Menu */,
+				2D28129524DCE6AD009AD972 /* RSSelection */,
+				2D28129824DCE6AD009AD972 /* FoodViewController.swift */,
+			);
+			name = FoodView;
+			path = "../../tab-experiment/tab-experiment/FoodView";
+			sourceTree = "<group>";
+		};
+		2D28128824DCE6AD009AD972 /* CustomizableMealMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2D28128924DCE6AD009AD972 /* CustomizableMealScrollView.swift */,
+				2D28128A24DCE6AD009AD972 /* MealNumberView.swift */,
+				2D28128B24DCE6AD009AD972 /* CustomizableMealView.swift */,
+			);
+			path = CustomizableMealMenu;
+			sourceTree = "<group>";
+		};
+		2D28128C24DCE6AD009AD972 /* SpecificDishes */ = {
+			isa = PBXGroup;
+			children = (
+				2D28128D24DCE6AD009AD972 /* SpecificDishView.swift */,
+				2D28128E24DCE6AD009AD972 /* TopRightView.swift */,
+				2D28128F24DCE6AD009AD972 /* SDVTextField.swift */,
+			);
+			path = SpecificDishes;
+			sourceTree = "<group>";
+		};
+		2D28129024DCE6AD009AD972 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D28129124DCE6AD009AD972 /* Matrix.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2D28129224DCE6AD009AD972 /* Left-Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2D28129324DCE6AD009AD972 /* MenuButton.swift */,
+				2D28129424DCE6AD009AD972 /* Menu.swift */,
+			);
+			path = "Left-Menu";
+			sourceTree = "<group>";
+		};
+		2D28129524DCE6AD009AD972 /* RSSelection */ = {
+			isa = PBXGroup;
+			children = (
+				2D28129624DCE6AD009AD972 /* MultipleSelectionHandler.swift */,
+				2D28129724DCE6AD009AD972 /* SingleSelectionHandler.swift */,
+			);
+			path = RSSelection;
+			sourceTree = "<group>";
+		};
+		9F072753D999D6A3D45389AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C985ED8DF6C35939AE178F1 /* Pods_Ubermarket_vn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5A2E81F8E29C7025F416AAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C238940D488DF78E67386EE /* Pods-Ubermarket-vn.debug.xcconfig */,
+				5030EE9F749B17286A750310 /* Pods-Ubermarket-vn.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D28127D24DCE68C009AD972 /* Build configuration list for PBXNativeTarget "Ubermarket-vn" */;
 			buildPhases = (
+				970DCE63EA4D9EC9AFD2CBD3 /* [CP] Check Pods Manifest.lock */,
 				2D28126524DCE688009AD972 /* Sources */,
 				2D28126624DCE688009AD972 /* Frameworks */,
 				2D28126724DCE688009AD972 /* Resources */,
+				3E61C1AF73F35A6EB03A6E97 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +274,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E61C1AF73F35A6EB03A6E97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ubermarket-vn/Pods-Ubermarket-vn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ubermarket-vn/Pods-Ubermarket-vn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ubermarket-vn/Pods-Ubermarket-vn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		970DCE63EA4D9EC9AFD2CBD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ubermarket-vn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D28126524DCE688009AD972 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D28127124DCE688009AD972 /* ViewController.swift in Sources */,
-				2D28126D24DCE688009AD972 /* AppDelegate.swift in Sources */,
-				2D28126F24DCE688009AD972 /* SceneDelegate.swift in Sources */,
+				2D28129E24DCE6AE009AD972 /* Popup.swift in Sources */,
+				2D2812AA24DCE6AE009AD972 /* FoodViewController.swift in Sources */,
+				2D2812AC24DCE6C2009AD972 /* MainTabBarController.swift in Sources */,
+				2D2812A924DCE6AE009AD972 /* SingleSelectionHandler.swift in Sources */,
+				2D2812A224DCE6AE009AD972 /* SpecificDishView.swift in Sources */,
+				2D2812A424DCE6AE009AD972 /* SDVTextField.swift in Sources */,
+				2D2812A124DCE6AE009AD972 /* CustomizableMealView.swift in Sources */,
+				2D2812B024DCE6DA009AD972 /* SceneDelegate.swift in Sources */,
+				2D28129D24DCE6AE009AD972 /* CalendarViewController.swift in Sources */,
+				2D2812A024DCE6AE009AD972 /* MealNumberView.swift in Sources */,
+				2D2812A724DCE6AE009AD972 /* Menu.swift in Sources */,
+				2D28129F24DCE6AE009AD972 /* CustomizableMealScrollView.swift in Sources */,
+				2D28129A24DCE6AE009AD972 /* UIViewExtension.swift in Sources */,
+				2D28129924DCE6AE009AD972 /* CalendarViewExtension.swift in Sources */,
+				2D2812A624DCE6AE009AD972 /* MenuButton.swift in Sources */,
+				2D2812A824DCE6AE009AD972 /* MultipleSelectionHandler.swift in Sources */,
+				2D28129B24DCE6AE009AD972 /* CustomTextField.swift in Sources */,
+				2D28129C24DCE6AE009AD972 /* RebeloperScrollView.swift in Sources */,
+				2D2812AF24DCE6DA009AD972 /* AppDelegate.swift in Sources */,
+				2D2812B224DD5087009AD972 /* SpecificDayContainer.swift in Sources */,
+				2D2812A524DCE6AE009AD972 /* Matrix.swift in Sources */,
+				2D2812A324DCE6AE009AD972 /* TopRightView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +484,13 @@
 		};
 		2D28127E24DCE68C009AD972 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C238940D488DF78E67386EE /* Pods-Ubermarket-vn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DYHUYQYWTX;
 				INFOPLIST_FILE = "Ubermarket-vn/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +504,13 @@
 		};
 		2D28127F24DCE68C009AD972 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5030EE9F749B17286A750310 /* Pods-Ubermarket-vn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DYHUYQYWTX;
 				INFOPLIST_FILE = "Ubermarket-vn/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

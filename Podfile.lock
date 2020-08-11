@@ -1,0 +1,24 @@
+PODS:
+  - FSCalendar (2.8.1)
+  - RSSelectionMenu (7.0.0)
+  - TinyConstraints (4.0.1)
+
+DEPENDENCIES:
+  - FSCalendar
+  - RSSelectionMenu
+  - TinyConstraints
+
+SPEC REPOS:
+  trunk:
+    - FSCalendar
+    - RSSelectionMenu
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+  RSSelectionMenu: 096db1676b37214a2c447383e80733599b74a052
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
+
+PODFILE CHECKSUM: fa77877e0aa8dc4f993d66d894e476e1955340ab
+
+COCOAPODS: 1.9.3
