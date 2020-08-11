@@ -1,20 +1,21 @@
 //
 //  AppDelegate.swift
-//  Ubermarket-vn
+//  tab-experiment
 //
-//  Created by bqle on 8/7/20.
+//  Created by bqle on 7/28/20.
 //  Copyright © 2020 bqle. All rights reserved.
 //
 
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate{
 
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         return true
     }
 
